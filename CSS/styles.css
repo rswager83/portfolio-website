@@ -26,6 +26,8 @@ Secondary Color (Orange): #e0b354;
 
 #page1{background-color: #EEE8AA;}
 #page2{background-color: #339999;}
+#page3{text-align: center;
+  color: var(--text-color);}
 
 *{
    box-sizing: border-box;
@@ -141,11 +143,6 @@ button:focus,
   color: var(--button-secondary-text-color);
 }
 
-.address{
-  color: var(--text-color);
-  text-align: center;
-}
-
 .standard-label{
   width: 100px;
   padding-right: 10px;
@@ -196,6 +193,7 @@ button:focus,
   text-align: top left;
   padding-left: 30px;
 }
+
 .page-header__item{
   flex: 0 1 100px;
 }
@@ -224,7 +222,6 @@ button:focus,
 
 .navigation-list{
   list-style-type: none;
-
 }
 
 .navigation-list li{
