@@ -132,7 +132,11 @@ button2
   /* overwrites browser defaults and resets the border */
   border: none;
   display: inline-block;
+<<<<<<< Updated upstream
   /* takes the font from the outer container */
+=======
+  /* takes the font from the outer container*/
+>>>>>>> Stashed changes
   font-family: inherit;
   /* styles the background color, font color, and text decoration (underline, etc.) of the button */
   background-color: white;
