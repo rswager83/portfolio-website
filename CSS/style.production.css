@@ -5,13 +5,6 @@
 * Browsers: last 4 version
 */
 
-/*
-Colors used
-
-Text Color (Dark Gray): #2b2b2b;
-Primary Color (Purple): #357b70;
-Secondary Color (Orange): #e0b354;
- */
 :root{ /*Serenity*/
 }
 
@@ -443,6 +436,7 @@ button:focus,
   }
 }
 
+
 @-webkit-keyframes cloud-move {
   from{
     -webkit-transform: translate(0,50px);
@@ -453,6 +447,7 @@ button:focus,
             transform: translate(200px,50px);
   }
 }
+
 
 @keyframes cloud-move {
   from{
