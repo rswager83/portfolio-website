@@ -5,12 +5,20 @@
 * Browsers: last 4 version
 */
 
+/*
+Colors used
 
-:root{ /* Serenity */
+Text Color (Dark Gray): #2b2b2b;
+Primary Color (Purple): #357b70;
+Secondary Color (Orange): #e0b354;
+ */
+:root{ /*Serenity*/
 }
 
 #page1{background-color: #EEE8AA;}
 #page2{background-color: #339999;}
+#page3{text-align: center;
+  color: #104e8b;}
 
 *{
    -webkit-box-sizing: border-box;
@@ -22,9 +30,9 @@ body{
   background-color: #92A8D1;
   font-weight: 400;
   font-size: 16px;
-  /* Sets the font size to 16px */
+  /*Sets the font size to 16px*/
   line-height: 1.6;
-  /* line-height to 1.6 */
+  /*line-height to 1.6*/
   color: #104e8b
 }
 
@@ -65,35 +73,35 @@ a{
 }
 
 a:hover, a:focus{
-  /* No underline when hovering over a link */
+  /*No underline when hovering over a link*/
   text-decoration: none;
 }
 
 a:visited{
-  /* visited link */
+  /*visited link*/
   color: #104e8b;
 }
 
 a:active{
-  /* selected link */
+  /*selected link*/
   color: #489c79;
 }
 
 button{
-  /* overwrites browser defaults and resets the border */
+  /*overwrites browser defaults and resets the border*/
   border: none;
   display: inline-block;
-  /* takes the font from the outer container */
+  /*takes the font from the outer container*/
   font-family: inherit;
-  /* styles the background color, font color, and text decoration (underline, etc.) of the button */
+  /*styles the background color, font color, and text decoration (underline, etc.) of the button*/
   background-color: white;
   color: #104e8b;
   text-decoration: none;
-  /* adds spacing to the button (this will be discussed more in-depth later) */
+  /*adds spacing to the button (this will be discussed more in-depth later)*/
   padding: 10px;
   margin-left: 30px;
   border-radius: 3px;
-  /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
+  /*gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format*/
   border-bottom: 2px solid rgba (0,0,0,0.3);
   -webkit-transition-duration: 0.2s;
        -o-transition-duration: 0.2s;
@@ -104,20 +112,20 @@ button{
 }
 
 button1{
-  /* overwrites browser defaults and resets the border */
+  /*overwrites browser defaults and resets the border*/
   border: none;
   display: inline-block;
-  /* takes the font from the outer container */
+  /*takes the font from the outer container*/
   font-family: inherit;
-  /* styles the background color, font color, and text decoration (underline, etc.) of the button */
+  /*styles the background color, font color, and text decoration (underline, etc.) of the button*/
   background-color: white;
   color: #104e8b;
   text-decoration: none;
-  /* adds spacing to the button (this will be discussed more in-depth later) */
+  /*adds spacing to the button (this will be discussed more in-depth later)*/
   padding: 10px;
   margin-left: 30px;
   border-radius: 3px;
-  /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
+  /*gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format*/
   border-bottom: 2px solid rgba (0,0,0,0.3);
   -webkit-transition-duration: 0.2s;
        -o-transition-duration: 0.2s;
@@ -129,20 +137,20 @@ button1{
 
 button2
 .button{
-  /* overwrites browser defaults and resets the border */
+  /*overwrites browser defaults and resets the border*/
   border: none;
   display: inline-block;
-  /* takes the font from the outer container*/
+  /*takes the font from the outer container*/
   font-family: inherit;
-  /* styles the background color, font color, and text decoration (underline, etc.) of the button */
+  /*styles the background color, font color, and text decoration (underline, etc.) of the button*/
   background-color: white;
   color: #104e8b;
   text-decoration: none;
-  /* adds spacing to the button (this will be discussed more in-depth later) */
+  /*adds spacing to the button (this will be discussed more in-depth later)*/
   padding: 10px;
   margin-left: 30px;
   border-radius: 3px;
-  /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
+  /*gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format*/
   border-bottom: 2px solid rgba (0,0,0,0.3);
   -webkit-transition-duration: 0.2s;
        -o-transition-duration: 0.2s;
@@ -153,20 +161,20 @@ button2
 }
 
 .button1{
-  /* overwrites browser defaults and resets the border */
+  /*overwrites browser defaults and resets the border*/
   border: none;
   display: inline-block;
-  /* takes the font from the outer container */
+  /*takes the font from the outer container*/
   font-family: inherit;
-  /* styles the background color, font color, and text decoration (underline, etc.) of the button */
+  /*styles the background color, font color, and text decoration (underline, etc.) of the button*/
   background-color: white;
   color: #104e8b;
   text-decoration: none;
-  /* adds spacing to the button (this will be discussed more in-depth later) */
+  /*adds spacing to the button (this will be discussed more in-depth later)*/
   padding: 10px;
   margin-left: 30px;
   border-radius: 3px;
-  /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
+  /*gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format*/
   border-bottom: 2px solid rgba (0,0,0,0.3);
   -webkit-transition-duration: 0.2s;
        -o-transition-duration: 0.2s;
@@ -177,20 +185,20 @@ button2
 }
 
 .button2{
-  /* overwrites browser defaults and resets the border */
+  /*overwrites browser defaults and resets the border*/
   border: none;
   display: inline-block;
-  /* takes the font from the outer container */
+  /*takes the font from the outer container*/
   font-family: inherit;
-  /* styles the background color, font color, and text decoration (underline, etc.) of the button */
+  /*styles the background color, font color, and text decoration (underline, etc.) of the button*/
   background-color: white;
   color: #104e8b;
   text-decoration: none;
-  /* adds spacing to the button (this will be discussed more in-depth later) */
+  /*adds spacing to the button (this will be discussed more in-depth later)*/
   padding: 10px;
   margin-left: 30px;
   border-radius: 3px;
-  /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
+  /*gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format*/
   border-bottom: 2px solid rgba (0,0,0,0.3);
   -webkit-transition-duration: 0.2s;
        -o-transition-duration: 0.2s;
@@ -204,9 +212,9 @@ button:hover,
 button:focus,
 .button:hover,
 .button:focus,{
-  /* lets the mouse appear as a hand when hovering over the buton */
+  /*lets the mouse appear as a hand when hovering over the buton*/
   cursor: pointer;
-  /* reduces the opacity of the button to 80% */
+  /*reduces the opacity of the button to 80%*/
   opacity: 0.8;
 }
 
@@ -231,11 +239,6 @@ button:focus,
 .button_secondary{
   background-color: #EEE8AA;
   color: #104e8b;
-}
-
-.address{
-  color: #104e8b;
-  text-align: center;
 }
 
 .standard-label{
@@ -294,6 +297,7 @@ button:focus,
   text-align: top left;
   padding-left: 30px;
 }
+
 .page-header__item{
   -webkit-box-flex: 0;
       -ms-flex: 0 1 100px;
@@ -331,7 +335,6 @@ button:focus,
 
 .navigation-list{
   list-style-type: none;
-
 }
 
 .navigation-list li{
