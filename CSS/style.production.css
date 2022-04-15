@@ -13,6 +13,22 @@ Primary Color (Purple): #357b70;
 Secondary Color (Orange): #e0b354;
  */
 :root{ /*Serenity*/
+    --primary-color:#357b70;
+    --secondary-color:#e0b354;
+    --text-color:#104e8b;
+    --white:#EEE8AA;
+    --background-color: #92A8D1; /*Serenity*/
+    --link-color-visited: #104e8b;
+    --link-color-selected: #489c79;
+    --button-background-color:white;
+    --button-text-color:#104e8b;
+    --button-secondary-background-color:#EEE8AA;
+    --button-secondary-text-color:#104e8b;
+    --grid-background-color: #;
+    --sun-color:#edc655;
+    --sun-color-light:#fcffad;
+    --sun-color-dark:#f76414;
+  }
 }
 
 #page1{background-color: #EEE8AA;}
